@@ -1,0 +1,73 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fafafa;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .addButton {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .addButton:hover {
+    background-color: #218838;
+  }
+  
+  .bookingList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bookingItem {
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .bookingItem:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .bookingLink {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .bookingLink:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
